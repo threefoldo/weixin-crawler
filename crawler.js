@@ -101,6 +101,10 @@ function handleArticle(link, title) {
   fs.writeFileSync(filePath, raw, 'utf-8');
 }
 
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
+
 for (let page = 1 + skipPage; page <= totalPage; page++) {
   requestList(page);
   sleep(60);
