@@ -1,0 +1,20 @@
+{
+  "name": "weixin-crawler",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sleep": "~3.0.0",
+    "urllib-sync": "~1.1.2",
+    "cheerio": "0.15.0",
+    "xmldoc": "~0.3.2",
+    "wxr": "~0.1.1"
+  },
+  "engines": {
+    "node": "4.2.1"
+  }
+}
